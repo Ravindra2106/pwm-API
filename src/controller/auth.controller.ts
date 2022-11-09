@@ -9,26 +9,7 @@ export class authController {
       .log_user(req.body)
       .then(
         (resp: any) => {
-          return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-          } );
-        },
-        (err: Error) => {
-          ServerError(err, res, next);
-        }
-      )
-      .catch((err: Error) => {
-        ServerError(err, res, next);
-      });
-  }
-  static add_user: any = async (req: Request, res: Response, next: NextFunction) => {
-    const service = new AuthService();
-    service
-      .add_user(req.body)
-      .then(
-        (resp: any) => {
+          console.log('res',resp)
           return res.status(200).send({
             status: 200,
             message: 'success',
@@ -63,6 +44,46 @@ export class authController {
         ServerError(err, res, next);
       });
   }
+  static add_user: any = async (req: Request, res: Response, next: NextFunction) => {
+    const service = new AuthService();
+    service
+      .add_user(req.body)
+      .then(
+        (resp: any) => {
+          return res.status(200).send({
+            status: 200,
+            message: 'success',
+            data: resp,
+          } );
+        },
+        (err: Error) => {
+          ServerError(err, res, next);
+        }
+      )
+      .catch((err: Error) => {
+        ServerError(err, res, next);
+      });
+  }
+  // static applications: any = async (req: Request, res: Response, next: NextFunction) => {
+  //   const service = new AuthService();
+  //   service
+  //     .applications(req.body)
+  //     .then(
+  //       (resp: any) => {
+  //         return res.status(200).send({
+  //           status: 200,
+  //           message: 'success',
+  //           data: resp,
+  //         } );
+  //       },
+  //       (err: Error) => {
+  //         ServerError(err, res, next);
+  //       }
+  //     )
+  //     .catch((err: Error) => {
+  //       ServerError(err, res, next);
+  //     });
+  // }
   static about: any = async (req: Request, res: Response, next: NextFunction) => {
     const service = new AuthService();
     service
@@ -103,26 +124,26 @@ export class authController {
         ServerError(err, res, next);
       });
   }
-  static new_button: any = async (req: Request, res: Response, next: NextFunction) => {
-    const service = new AuthService();
-    service
-      .applications(req.body)
-      .then(
-        (resp: any) => {
-          return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-          } );
-        },
-        (err: Error) => {
-          ServerError(err, res, next);
-        }
-      )
-      .catch((err: Error) => {
-        ServerError(err, res, next);
-      });
-  }
+  // static new_button: any = async (req: Request, res: Response, next: NextFunction) => {
+  //   const service = new AuthService();
+  //   service
+  //     .applications(req.body)
+  //     .then(
+  //       (resp: any) => {
+  //         return res.status(200).send({
+  //           status: 200,
+  //           message: 'success',
+  //           data: resp,
+  //         } );
+  //       },
+  //       (err: Error) => {
+  //         ServerError(err, res, next);
+  //       }
+  //     )
+  //     .catch((err: Error) => {
+  //       ServerError(err, res, next);
+  //     });
+  // }
   static add_schedule: any = async (req: Request, res: Response, next: NextFunction) => {
     const service = new AuthService();
     service
@@ -183,10 +204,10 @@ export class authController {
         ServerError(err, res, next);
       });
   }
-  static update_announcements1: any = async (req: Request, res: Response, next: NextFunction) => {
+  static updateannouncements: any = async (req: Request, res: Response, next: NextFunction) => {
     const service = new AuthService();
     service
-      .update_announcements1(req.body)
+      .updateannouncements(req.body)
       .then(
         (resp: any) => {
           return res.status(200).send({
@@ -224,10 +245,30 @@ export class authController {
   //       ServerError(err, res, next);
   //     });
   // }
-  static services: any = async (req: Request, res: Response, next: NextFunction) => {
+  // static services: any = async (req: Request, res: Response, next: NextFunction) => {
+  //   const service = new AuthService();
+  //   service
+  //     .services(req.body)
+  //     .then(
+  //       (resp: any) => {
+  //         return res.status(200).send({
+  //           status: 200,
+  //           message: 'success',
+  //           data: resp,
+  //         } );
+  //       },
+  //       (err: Error) => {
+  //         ServerError(err, res, next);
+  //       }
+  //     )
+  //     .catch((err: Error) => {
+  //       ServerError(err, res, next);
+  //     });
+  // }
+  static postservices: any = async (req: Request, res: Response, next: NextFunction) => {
     const service = new AuthService();
     service
-      .applications(req.body)
+      .postservices(req.body)
       .then(
         (resp: any) => {
           return res.status(200).send({
@@ -244,7 +285,26 @@ export class authController {
         ServerError(err, res, next);
       });
   }
-  
+  static putservices: any = async (req: Request, res: Response, next: NextFunction) => {
+    const service = new AuthService();
+    service
+      .putservices(req.body)
+      .then(
+        (resp: any) => {
+          return res.status(200).send({
+            status: 200,
+            message: 'success',
+            data: resp,
+          } );
+        },
+        (err: Error) => {
+          ServerError(err, res, next);
+        }
+      )
+      .catch((err: Error) => {
+        ServerError(err, res, next);
+      });
+  }
  
   static contact_and_hours: any = async (req: Request, res: Response, next: NextFunction) => {
     const service = new AuthService();
@@ -286,7 +346,27 @@ export class authController {
         ServerError(err, res, next);
       });
   }
- 
+
+  static updatenotifications: any = async (req: Request, res: Response, next: NextFunction) => {
+    const service = new AuthService();
+    service
+      .updatenotifications(req.body)
+      .then(
+        (resp: any) => {
+          return res.status(200).send({
+            status: 200,
+            message: 'success',
+            data: resp,
+          } );
+        },
+        (err: Error) => {
+          ServerError(err, res, next);
+        }
+      )
+      .catch((err: Error) => {
+        ServerError(err, res, next);
+      });
+  }
 
 //   static update_user: any = async (req: Request, res: Response, next: NextFunction) => {
 //     const service = new AuthService();

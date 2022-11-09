@@ -67,20 +67,13 @@ class AuthService {
             });
         });
     }
-    new_button(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                auth_model_1.AuthModel.new_button(body).then((res) => {
-                    console.log(res);
-                    resolve(res);
-                });
-            });
-        });
-    }
+
+
     add_schedule(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
                 auth_model_1.AuthModel.add_schedule(body).then((res) => {
+
                     console.log(res);
                     resolve(res);
                 });
@@ -107,10 +100,10 @@ class AuthService {
             });
         });
     }
-    update_announcements1(body) {
+    updateannouncements(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                auth_model_1.AuthModel.update_announcements1(body).then((res) => {
+                auth_model_1.AuthModel.updateannouncements(body).then((res) => {
                     console.log(res);
                     resolve(res);
                 });
@@ -145,6 +138,16 @@ class AuthService {
             });
         });
     }
+    postservices(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                auth_model_1.AuthModel.postservices(body).then((res) => {
+                    console.log(res);
+                    resolve(res);
+                });
+            });
+        });
+    }
     notifications(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
@@ -155,6 +158,28 @@ class AuthService {
             });
         });
     }
+    putservices(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                auth_model_1.AuthModel.putservices(body).then((res) => {
+                    console.log(res);
+                    resolve(res);
+                });
+            });
+        });
+    }
+    updatenotifications(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                auth_model_1.AuthModel.updatenotifications(body).then((res) => {
+                    console.log(res);
+                    resolve(res);
+                });
+            });
+        });
+    }
+                    
 }
+
 exports.AuthService = AuthService;
 //# sourceMappingURL=auth.service.js.map

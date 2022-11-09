@@ -131,28 +131,29 @@ export class AuthModel {
       );
     });
   }
-  static new_button(body: any) {
-    return new Promise(async function (resolve, reject) {
-      console.log('body', body);
-      dbClient.query(
-        {
-          sql: 'CALL `pmw`.`new_button`();',
-          values: [],
-        },
-        function (err: Error, res: any) {
+  // static new_button(body: any) {
+  //   return new Promise(async function (resolve, reject) {
+  //     console.log('body', body);
+  //     dbClient.query(
+  //       {
+  //         sql: 'CALL `pmw`.`new_button`();',
+  //         values: [],
+  //       },
+  //       function (err: Error, res: any) {
 
-          if (err) {
-            // console.log('err',err);
-            resolve(err)
-              ;
-          } else {
-            console.log('response', res);
-            resolve(res);
-          }
-        }
-      );
-    });
-  }
+  //         if (err) {
+  //           // console.log('err',err);
+  //           resolve(err)
+  //             ;
+  //         } else {
+  //           console.log('response', res);
+  //           resolve(res);
+  //         }
+  //       }
+  //     );
+  //   });
+  // }
+
   static add_schedule(body: any) {
     console.log("body",body)
     return new Promise(async function (resolve, reject) {
@@ -225,15 +226,13 @@ export class AuthModel {
       );
     });
   }
-  static update_announcements1(body: any) {
+  static updateannouncements(body: any) {
     return new Promise(async function (resolve, reject) {
       console.log('body', body);
       dbClient.query(
         {
-          sql: 'CALL `pmw`.`update_announcement`(?, ?, ?, ?, ?, ?); ',
-          values: [
-            body._date_from, body._date_to, body._image, body.title, body._descrp, body._status
-          ],
+          sql: 'CALL `pmw`.`updateannouncements`(?, ?, ?, ?, ?, ?);',
+          values: [body._date_from,body._date_to,body._image,body._title,body._description,body._status],
         },
         function (err: Error, res: any) {
 
@@ -274,13 +273,35 @@ export class AuthModel {
   //     );
   //   });
   // }
-  static services(body: any) {
+  // static services(body: any) {
+  //   return new Promise(async function (resolve, reject) {
+  //     console.log('body', body);
+  //     dbClient.query(
+  //       {
+  //         sql: 'CALL `pmw`.`services`();',
+  //         values: [],
+  //       },
+  //       function (err: Error, res: any) {
+
+  //         if (err) {
+  //           // console.log('err',err);
+  //           resolve(err)
+  //             ;
+  //         } else {
+  //           console.log('response', res);
+  //           resolve(res);
+  //         }
+  //       }
+  //     );
+  //   });
+  // }
+  static postservices(body: any) {
     return new Promise(async function (resolve, reject) {
       console.log('body', body);
       dbClient.query(
         {
-          sql: 'CALL `pmw`.`services`();',
-          values: [],
+          sql: 'CALL `pmw`.`add_service`(?, ?, ?, ?, ?);',
+          values: [body.sr_no,body._image,body.web_url,body.ph_no,body.sr_title],
         },
         function (err: Error, res: any) {
 
@@ -296,6 +317,29 @@ export class AuthModel {
       );
     });
   }
+  static putservices(body: any) {
+    return new Promise(async function (resolve, reject) {
+      console.log('body', body);
+      dbClient.query(
+        {
+          sql: 'CALL `pmw`.`update_services`(?, ?, ?, ?, ?);',
+          values: [body.sr_no,body._image,body.web_url,body.ph_no,body.sr_title],
+        },
+        function (err: Error, res: any) {
+
+          if (err) {
+            // console.log('err',err);
+            resolve(err)
+              ;
+          } else {
+            console.log('response', res);
+            resolve(res);
+          }
+        }
+      );
+    });
+  }
+  
   static contact_and_hours(body: any) {
     return new Promise(async function (resolve, reject) {
       console.log('body', body);
@@ -326,13 +370,35 @@ export class AuthModel {
       );
     });
   }
-  static notifications(body: any) {
+  // static notifications(body: any) {
+  //   return new Promise(async function (resolve, reject) {
+  //     console.log('body', body);
+  //     dbClient.query(
+  //       {
+  //         sql: 'CALL `pmw`.`notifications`();',
+  //         values: [],
+  //       },
+  //       function (err: Error, res: any) {
+
+  //         if (err) {
+  //           // console.log('err',err);
+  //           resolve(err)
+  //             ;
+  //         } else {
+  //           console.log('response', res);
+  //           resolve(res);
+  //         }
+  //       }
+  //     );
+  //   });
+  // }
+  static updatenotifications(body: any) {
     return new Promise(async function (resolve, reject) {
       console.log('body', body);
       dbClient.query(
         {
-          sql: 'CALL `pmw`.`notifications`();',
-          values: [],
+          sql: 'CALL `pmw`.`update_notifications`(?, ?, ?, ?, ?)`();',
+          values: [body._image,body._notify_title,body._notify_url,body._date_from,body._date_to],
         },
         function (err: Error, res: any) {
 
@@ -348,7 +414,6 @@ export class AuthModel {
       );
     });
   }
-
   //   static update_user(body: any) {
   //     return new Promise(async function (resolve, reject) {
   //       console.log('body', body);

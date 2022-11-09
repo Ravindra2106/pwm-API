@@ -48,17 +48,26 @@ export class AuthService {
             });
         });
     }
-    new_button(body: any){
+
+    // announcements(body: any) {
+    //     return new Promise(async function (resolve, reject) {
+    //         AuthModel.announcements(body).then((res: any) => {
+    //             console.log(res);
+    //             resolve(res);
+    //         });
+    //     });
+    // }
+    add_schedule(body: any){
         return new Promise(async function (resolve, reject) {
-             AuthModel.new_button(body).then((res: any) => {
+             AuthModel.add_schedule(body).then((res: any) => {
                 console.log(res);
                 resolve(res);
             });
         });
     }
-    add_schedule(body: any){
+    updateannouncements (body: any) {
         return new Promise(async function (resolve, reject) {
-             AuthModel.add_schedule(body).then((res: any) => {
+            AuthModel.updateannouncements(body).then((res: any) => {
                 console.log(res);
                 resolve(res);
             });
@@ -80,9 +89,17 @@ export class AuthService {
             });
         });
     }
-    update_announcements1(body: any){
+    postservices(body: any) {
         return new Promise(async function (resolve, reject) {
-             AuthModel.update_announcements1(body).then((res: any) => {
+            AuthModel.postservices(body).then((res: any) => {
+                console.log(res);
+                resolve(res);
+            });
+        });
+    }
+    putservices(body: any) {
+        return new Promise(async function (resolve, reject) {
+            AuthModel.putservices(body).then((res: any) => {
                 console.log(res);
                 resolve(res);
             });
@@ -97,25 +114,33 @@ export class AuthService {
     //         });
     //     });
     // }
-    services(body: any){
-        return new Promise(async function (resolve, reject) {
-             AuthModel.services(body).then((res: any) => {
-                console.log(res);
-                resolve(res);
-            });
-        });
-    }
+    // services(body: any){
+    //     return new Promise(async function (resolve, reject) {
+    //          AuthModel.services(body).then((res: any) => {
+    //             console.log(res);
+    //             resolve(res);
+    //         });
+    //     });
+    // }
     contact_and_hours(body: any){
         return new Promise(async function (resolve, reject) {
              AuthModel.contact_and_hours(body).then((res: any) => {
+//     notificatins(body: any) {
+//         return new Promise(async function (resolve, reject) {
+//             AuthModel.services(body).then((res: any) => {
+// >>>>>>> cb898fe3489c90cf289e017ed12b94e59317694c
                 console.log(res);
                 resolve(res);
             });
         });
     }
-    notifications(body: any){
+// <<<<<<< HEAD
+//     notifications(body: any){
+//         return new Promise(async function (resolve, reject) {
+//              AuthModel.notifications(body).then((res: any) => {
+    updatenotifications(body: any) {
         return new Promise(async function (resolve, reject) {
-             AuthModel.notifications(body).then((res: any) => {
+            AuthModel.updatenotifications(body).then((res: any) => {
                 console.log(res);
                 resolve(res);
             });
@@ -170,4 +195,54 @@ export class AuthService {
 //             });
 //         });
 //     }
+
+    //     update_user(body: any){
+    //         return new Promise(async function (resolve, reject) {
+    //              AuthModel.update_user(body).then((res: any) => {
+    //                 console.log(res);
+    //                 resolve(res);
+    //             });
+    //         });
+    //     }
+    //     delete_user(body: any){
+    //         return new Promise(async function (resolve, reject) {
+    //              AuthModel.delete_user(body).then((res: any) => {
+    //                 console.log(res);
+    //                 resolve(res);
+    //             });
+    //         });
+    //     }
+    //     create_user(body: any){
+    //         return new Promise(async function (resolve, reject) {
+    //              AuthModel.create_user(body).then((res: any) => {
+    //                 console.log(res);
+    //                 resolve(res);
+    //             });
+    //         });
+    //     }
+    //     forget_password(body: any){
+    //         return new Promise(async function (resolve, reject) {
+    //              AuthModel.forget_password(body).then((res: any) => {
+    //                 console.log(res);
+    //                 resolve(res);
+    //             });
+    //         });
+    //     }
+    //     login(body: any){
+    //         return new Promise(async function (resolve, reject) {
+    //              AuthModel.login(body).then((res: any) => {
+    //                 console.log(res);
+    //                 resolve(res);
+    //             });
+    //         });
+    //     }
+    //     dashboard(body: any){
+    //         return new Promise(async function (resolve, reject) {
+    //              AuthModel.dashboard(body).then((res: any) => {
+    //                 console.log(res);
+    //                 resolve(res);
+    //             });
+    //         });
+    //     }
+
 }
