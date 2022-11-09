@@ -66,26 +66,26 @@ export class authController {
         ServerError(err, res, next);
       });
   }
-  static applications: any = async (req: Request, res: Response, next: NextFunction) => {
-    const service = new AuthService();
-    service
-      .applications(req.body)
-      .then(
-        (resp: any) => {
-          return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-          });
-        },
-        (err: Error) => {
-          ServerError(err, res, next);
-        }
-      )
-      .catch((err: Error) => {
-        ServerError(err, res, next);
-      });
-  }
+  // static applications: any = async (req: Request, res: Response, next: NextFunction) => {
+  //   const service = new AuthService();
+  //   service
+  //     .applications(req.body)
+  //     .then(
+  //       (resp: any) => {
+  //         return res.status(200).send({
+  //           status: 200,
+  //           message: 'success',
+  //           data: resp,
+  //         });
+  //       },
+  //       (err: Error) => {
+  //         ServerError(err, res, next);
+  //       }
+  //     )
+  //     .catch((err: Error) => {
+  //       ServerError(err, res, next);
+  //     });
+  // }
   static about: any = async (req: Request, res: Response, next: NextFunction) => {
     const service = new AuthService();
     service
@@ -348,26 +348,26 @@ export class authController {
       });
   }
 
-  static add_user: any = async (req: Request, res: Response, next: NextFunction) => {
-    const service = new AuthService();
-    service
-      .add_user(req.body)
-      .then(
-        (resp: any) => {
-          return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-          });
-        },
-        (err: Error) => {
-          ServerError(err, res, next);
-        }
-      )
-      .catch((err: Error) => {
-        ServerError(err, res, next);
-      });
-  }
+  // static add_user: any = async (req: Request, res: Response, next: NextFunction) => {
+  //   const service = new AuthService();
+  //   service
+  //     .add_user(req.body)
+  //     .then(
+  //       (resp: any) => {
+  //         return res.status(200).send({
+  //           status: 200,
+  //           message: 'success',
+  //           data: resp,
+  //         });
+  //       },
+  //       (err: Error) => {
+  //         ServerError(err, res, next);
+  //       }
+  //     )
+  //     .catch((err: Error) => {
+  //       ServerError(err, res, next);
+  //     });
+  // }
 
   //   static update_user: any = async (req: Request, res: Response, next: NextFunction) => {
   //     const service = new AuthService();

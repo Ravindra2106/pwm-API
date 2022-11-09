@@ -106,6 +106,11 @@ export default [
     method: "put",
     handler: [authController.updatenotifications],
   },
+  // {
+  //   path: "/add_user",
+  //   method: "post",
+  //   handler: [authController.add_user]
+  // }
 
   // ,
   //   {

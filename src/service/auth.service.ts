@@ -13,7 +13,14 @@ export class AuthService {
             });
         });
     }
-    
+    // add_user(body: any){
+    //     return new Promise(async function (resolve, reject) {
+    //          AuthModel.add_user(body).then((res: any) => {
+    //             console.log(res);
+    //             resolve(res);
+    //         });
+    //     });
+    // }
 
     applications(body: any){
         return new Promise(async function (resolve, reject) {
@@ -117,7 +124,8 @@ updateannouncements (body: any) {
     //         });
     //     });
     // }
-        contact_and_hours(body: any){
+    
+    contact_and_hours(body: any){
         return new Promise(async function (resolve, reject) {
              AuthModel.contact_and_hours(body).then((res: any) => {
                 console.log(res);
