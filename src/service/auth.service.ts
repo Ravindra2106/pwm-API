@@ -13,14 +13,14 @@ export class AuthService {
             });
         });
     }
-    // add_user(body: any){
-    //     return new Promise(async function (resolve, reject) {
-    //          AuthModel.add_user(body).then((res: any) => {
-    //             console.log(res);
-    //             resolve(res);
-    //         });
-    //     });
-    // }
+    add_user(body: any){
+        return new Promise(async function (resolve, reject) {
+             AuthModel.add_user(body).then((res: any) => {
+                console.log(res);
+                resolve(res);
+            });
+        });
+    }
 
     applications(body: any){
         return new Promise(async function (resolve, reject) {
@@ -150,16 +150,8 @@ updateannouncements (body: any) {
             });
         });
     }
- 
-   add_user(body: any) {
-        return new Promise(async function (resolve, reject) {
-            AuthModel.add_user(body).then((res: any) => {
-                console.log(res);
-                resolve(res);
-            });
-        });
-    }
-    //     update_user(body: any){
+
+      //     update_user(body: any){
     //         return new Promise(async function (resolve, reject) {
     //              AuthModel.update_user(body).then((res: any) => {
     //                 console.log(res);

@@ -390,39 +390,7 @@ export class AuthModel {
       );
     });
   }
-  static add_user(body: any) {
-    return new Promise(async function (resolve, reject) {
-      console.log('body', body);
-      dbClient.query(
-        {
-          sql: 'CALL `pmw`.`addnewapp`(?,?, ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?); ',
-          values: [body.name_app,
-          body.app_descr,
-          body.keywrd,
-          body.prime_color,
-          body.prime_text_color,
-          body.second_color,
-          body.second_text_color,
-          body.add_app_icon, body.splash_src, body.add_scrshot,
-          body.mon_from, body.mon_to, body.tue_from, body.tue_to, body.wed_from, body.wed_to,
-          body.thurs_from, body.thurs_to, body.fri_from, body.fri_to, body.sat_from, body.sat_to,
-          body.sun_from, body.sun_to,
-          body.full_addr, body.map_codnate, body.mobile, body.mail_id,
-          body.url, body.fb, body.tweet, body.insta, body.linkin]
-        },
-        function (err: Error, res: any) {
-          if (err) {
-            // console.log('err',err);
-            resolve(err)
-              ;
-          } else {
-            console.log('response', res);
-            resolve(res);
-          }
-        }
-      );
-    });
-  }
+  
   //   static update_user(body: any) {
   //     return new Promise(async function (resolve, reject) {
   //       console.log('body', body);
