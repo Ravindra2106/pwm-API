@@ -1,6 +1,7 @@
 import { dbClient } from "../config/db";
 
 export class AuthModel {
+    static schedule: any;
   static log_user(body: any) {
     return new Promise(async function (resolve, reject) {
       console.log('body', body);
