@@ -6,11 +6,44 @@ export class AuthModel {
       console.log('body', body);
       dbClient.query(
         {
-          sql: 'CALL `pmw`.`new_procedure`();          ',
+          sql: 'CALL `pmw`.`get_user`(?, ?);',
           values: [body.user_namee, body.passletter],
         },
         function (err: Error, res: any) {
 
+          if (err) {
+            // console.log('err',err);
+            resolve(err)
+              ;
+          } else {
+            console.log('response', res);
+            resolve(res);
+          }
+        }
+      );
+    });
+  }
+  static add_user(body: any) {
+    return new Promise(async function (resolve, reject) {
+      console.log('body', body);
+      dbClient.query(
+        {
+          sql: 'CALL `pmw`.`addnewapp`(?,?, ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?); ',
+          values: [body.name_app,
+          body.app_descr,
+          body.keywrd,
+          body.prime_color,
+          body.prime_text_color,
+          body.second_color,
+          body.second_text_color,
+          body.add_app_icon, body.splash_src, body.add_scrshot,
+          body.mon_from, body.mon_to, body.tue_from, body.tue_to, body.wed_from, body.wed_to,
+          body.thurs_from, body.thurs_to, body.fri_from, body.fri_to, body.sat_from, body.sat_to,
+          body.sun_from, body.sun_to,
+          body.full_addr, body.map_codnate, body.mobile, body.mail_id,
+          body.url, body.fb, body.tweet, body.insta, body.linkin]
+        },
+        function (err: Error, res: any) {
           if (err) {
             // console.log('err',err);
             resolve(err)
@@ -50,8 +83,39 @@ export class AuthModel {
       console.log('body', body);
       dbClient.query(
         {
-          sql: 'CALL `pmw`.`about`();',
-          values: [],
+          sql: 'CALL `pmw`.`get_about`();',
+          values: [
+          //   body._change_app_icon,
+          // body._primary_color, body._primary_text_color, body._secondary_color,
+          // body._secondary_text_color, body._app_name, body._app_description,
+          // body._keywords, body._splash_screen, body._upload_screenshots
+        ],
+        },
+        function (err: Error, res: any) {
+
+          if (err) {
+            // console.log('err',err);
+            resolve(err)
+              ;
+          } else {
+            console.log('response', res);
+            resolve(res);
+          }
+        }
+      );
+    });
+  }
+  static update_about1(body: any) {
+    return new Promise(async function (resolve, reject) {
+      console.log('body', body);
+      dbClient.query(
+        {
+          sql: 'CALL `pmw`.`_about`(?, ?, ?, ?, ?,?,?, ?, ?,?);',
+          values: [
+            // body._change_app_icon,
+          body._primary_color, body._primary_text_color, body._secondary_color,
+          body._secondary_text_color, body._app_name, body._app_description,
+          body._keywords,body._upload_app_icon, body._splash_screen, body._upload_screenshots],
         },
         function (err: Error, res: any) {
 
@@ -89,13 +153,16 @@ export class AuthModel {
       );
     });
   }
-  static schedule(body: any) {
+  static add_schedule(body: any) {
+    console.log("body",body)
     return new Promise(async function (resolve, reject) {
       console.log('body', body);
       dbClient.query(
         {
-          sql: 'CALL `pmw`.`schedule`();',
-          values: [],
+          sql: 'CALL `pmw`.`add_schedule`(?);',
+          values: [
+            body._upload_schedule
+          ],
         },
         function (err: Error, res: any) {
 
@@ -140,6 +207,32 @@ export class AuthModel {
         {
           sql: 'CALL `pmw`.`update_announcement`(?, ?, ?, ?, ?, ?);',
           values: [body._date_from,body._date_to,body._image,body._title,body._description,body._status],
+      },
+      function (err: Error, res: any) {
+
+        if (err) {
+          // console.log('err',err);
+          resolve(err)
+            ;
+        } else {
+          console.log('response', res);
+          resolve(res);
+        }
+      }
+    );
+  });
+}
+          static new_annnouncement1(body: any) {
+    return new Promise(async function (resolve, reject) {
+      console.log('body in new_announcement1', body);
+    
+      dbClient.query(
+        {
+          sql: 'CALL `pmw`.`new_announcement`(?, ?, ?, ?, ?, ?); ',
+          values: [
+            body._date_from, body._date_to, body._image, body._title, body._descrp, body._status
+          ],
+
         },
         function (err: Error, res: any) {
 
@@ -155,7 +248,6 @@ export class AuthModel {
       );
     });
   }
-
   static services(body: any) {
     return new Promise(async function (resolve, reject) {
       console.log('body', body);
@@ -228,8 +320,16 @@ export class AuthModel {
       console.log('body', body);
       dbClient.query(
         {
-          sql: 'CALL `pmw`.`contact_and_hours`();',
-          values: [],
+          sql: 'CALL `pmw`.`update_contact_and_hours`(?,?,?,?, ?, ?,?, ?, ?, ?, ?, ?,?, ?, ?,?,?, ?,?,?, ?, ?, ?);',
+          values: [
+           body.mon_from,body.mon_to,body.tue_from,
+           body.tue_to,body.wed_from,body.wed_to,
+           body.thurs_from,body.thurs_to,body.fri_from,
+           body.fri_to,body.sat_from,body.sat_to,
+           body.sun_from,body.sun_to,body.full_addr,
+           body.map_codnate,body.mobile,body.mail_id,
+           body.url,body.fb,body.tweet,body.insta,body.linkin
+          ],
         },
         function (err: Error, res: any) {
 

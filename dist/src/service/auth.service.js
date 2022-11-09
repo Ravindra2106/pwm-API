@@ -11,15 +11,29 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthService = void 0;
 const auth_model_1 = require("../model/auth.model");
-class AuthService {
+class AuthService 
+{
     log_user(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
                 auth_model_1.AuthModel.log_user(body).then((res) => {
+                    console.log('res>>>', res);
                     if (body.email === res.user_namee && body.password === res.passletter) {
-                        console.log(res);
                         resolve(res);
                     }
+                    else {
+                        console.log('here');
+                    }
+                });
+            });
+        });
+    }
+    add_user(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                auth_model_1.AuthModel.add_user(body).then((res) => {
+                    console.log(res);
+                    resolve(res);
                 });
             });
         });
@@ -44,6 +58,16 @@ class AuthService {
             });
         });
     }
+    update_about1(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                auth_model_1.AuthModel.update_about1(body).then((res) => {
+                    console.log(res);
+                    resolve(res);
+                });
+            });
+        });
+    }
     new_button(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
@@ -54,10 +78,10 @@ class AuthService {
             });
         });
     }
-    schedule(body) {
+    add_schedule(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                auth_model_1.AuthModel.schedule(body).then((res) => {
+                auth_model_1.AuthModel.add_schedule(body).then((res) => {
                     console.log(res);
                     resolve(res);
                 });
@@ -84,6 +108,35 @@ class AuthService {
             });
         });
     }
+    new_annnouncement1(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                auth_model_1.AuthModel.new_annnouncement1(body).then((res) => {
+
+                    console.log(res);
+                    resolve(res);
+                });
+            });
+        });
+    }
+    update_announcements1(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                auth_model_1.AuthModel.update_announcements1(body).then((res) => {
+                    console.log(res);
+                    resolve(res);
+                });
+            });
+        });
+    }
+    // delete_announcement1(body: any){
+    //     return new Promise(async function (resolve, reject) {
+    //          AuthModel.delete_announcement1(body).then((res: any) => {
+    //             console.log(res);
+    //             resolve(res);
+    //         });
+    //     });
+    // }
     services(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
@@ -114,10 +167,11 @@ class AuthService {
             });
         });
     }
+
     contact_and_hours(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                auth_model_1.AuthModel.services(body).then((res) => {
+                auth_model_1.AuthModel.contact_and_hours(body).then((res) => {
                     console.log(res);
                     resolve(res);
                 });
@@ -154,6 +208,18 @@ class AuthService {
             });
         });
     }
+
+// exports.AuthSer
+    notifications(body){
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                auth_model_1.AuthModel.notifications(body).then((res) => {
+                    console.log(res);
+                    resolve(res);
+                });
+            });
+        });
+    }
 }
-exports.AuthService = AuthService;
+// exports.AuthService = AuthService;
 //# sourceMappingURL=auth.service.js.map

@@ -1,106 +1,141 @@
-import { authController }  from "../controller/auth.controller";
+import { authController } from "../controller/auth.controller";
 export default [
-    {
-        path: "/log_user",
-        method: "post",
-        handler: [authController.log_user],
-    },
-    {
-      path: "/add_user",
-      method: "post",
-      handler: [authController.add_user],
+  {
+    path: "/log_user",
+    method: "post",
+    handler: [authController.log_user],
   },
   {
-    path:"/applications",
-    method:"get",
-    handler:[authController.applications],
+    path: "/add_user",
+    method: "post",
+    handler: [authController.add_user],
   },
   {
-    path:"/about",
-    method:"get",
-    handler:[authController.applications],
+    path: "/applications",
+    method: "get",
+    handler: [authController.applications],
   },
   {
-    path:"/new_button",
-    method:"get",
-    handler:[authController.applications],
+    path: "/about",
+    method: "get",
+    handler: [authController.applications],
   },
   {
-    path:"/schedule",
-    method:"get",
-    handler:[authController.applications],
+    path: "/new_button",
+    method: "get",
+    handler: [authController.applications],
   },
   {
-    path:"/announcements",
-    method:"get",
-    handler:[authController.announcements],
+    path: "/update_about1",
+    method: "put",
+    handler: [authController.update_about1],
   },
   {
-    path:"/updateannouncements",
-    method:"put",
-    handler:[authController.updateannouncements],
+    path: "/add_schedule",
+    method: "post",
+    handler: [authController.add_schedule],
   },
   {
-    path:"/services",
-    method:"get",
-    handler:[authController.services],
+    path: "/announcements",
+    method: "get",
+    handler: [authController.announcements],
   },
   {
-    path:"/postservices",
-    method:"post",
-    handler:[authController.postservices],
+
+    path: "/updateannouncements",
+    method: "put",
+    handler: [authController.updateannouncements],
   },
   {
-    path:"/putservices",
-    method:"put",
-    handler:[authController.putservices],
+    path: "/new_annnouncement1",
+    method: "post",
+    handler: [authController.new_annnouncement1],
   },
-  
+  // {
+  //   path:"/delete_announcement1",
+  //   method:"delete",
+  //   handler:[authController.applications],
+  // },
   {
-    path:"/contact_and_hours",
-    method:"get",
-    handler:[authController.applications],
+    path: "/update_announcements1",
+    method: "put",
+    handler: [authController.applications],
+
   },
   {
-    path:"/notifications",
-    method:"get",
-    handler:[authController.applications],
+    path: "/services",
+    method: "get",
+
+    handler: [authController.services],
   },
   {
-    path:"/updatenotifications",
-    method:"put",
-    handler:[authController.updatenotifications],
+    path: "/postservices",
+    method: "post",
+    handler: [authController.postservices],
   },
-  
-// ,
-//   {
-//     path: "/update_user",
-//     method: "put",
-//     handler: [authController.update_user],
-// },
-// {
-//   path: "/delete_user",
-//   method: "delete",
-//   handler: [authController.delete_user],
-// },
-// {
-//   path: "/create_user",
-//   method: "post",
-//   handler: [authController.create_user],
-// },
-// {
-//   path: "/forget_password",
-//   method: "post",
-//   handler: [authController.forget_password],
-// },
-// {
-//   path: "/login",
-//   method: "post",
-//   handler: [authController.login],
-// } ,
-// {
-//   path: "/dashboard",
-//   method: "post",
-//   handler: [authController.dashboard],
-// },
+  {
+    path: "/putservices",
+    method: "put",
+    handler: [authController.services],
+  },
+
+  {
+    path: "/contact_and_hours",
+    method: "get",
+    handler: [authController.applications],
+  },
+  {
+    path: "/add_service1",
+    method: "post",
+    handler: [authController.applications],
+  },
+
+  {
+    path: "/contact_and_hours",
+    method: "put",
+    handler: [authController.contact_and_hours],
+  },
+  {
+    path: "/notifications",
+    method: "get",
+    handler: [authController.applications],
+  },
+
+  {
+    path: "/updatenotifications",
+    method: "put",
+    handler: [authController.updatenotifications],
+  },
+
+  // ,
+  //   {
+  //     path: "/update_user",
+  //     method: "put",
+  //     handler: [authController.update_user],
+  // },
+  // {
+  //   path: "/delete_user",
+  //   method: "delete",
+  //   handler: [authController.delete_user],
+  // },
+  // {
+  //   path: "/create_user",
+  //   method: "post",
+  //   handler: [authController.create_user],
+  // },
+  // {
+  //   path: "/forget_password",
+  //   method: "post",
+  //   handler: [authController.forget_password],
+  // },
+  // {
+  //   path: "/login",
+  //   method: "post",
+  //   handler: [authController.login],
+  // } ,
+  // {
+  //   path: "/dashboard",
+  //   method: "post",
+  //   handler: [authController.dashboard],
+  // },
 ]

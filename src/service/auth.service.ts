@@ -13,33 +13,36 @@ export class AuthService {
             });
         });
     }
-    applications(body: any) {
+    
+
+    applications(body: any){
         return new Promise(async function (resolve, reject) {
-            AuthModel.applications(body).then((res: any) => {
+             AuthModel.applications(body).then((res: any) => {
                 console.log(res);
                 resolve(res);
             });
         });
     }
-    about(body: any) {
+    about(body: any){
         return new Promise(async function (resolve, reject) {
-            AuthModel.about(body).then((res: any) => {
+             AuthModel.about(body).then((res: any) => {
                 console.log(res);
                 resolve(res);
             });
         });
     }
-    new_button(body: any) {
-        return new Promise(async function (resolve, reject) {
-            AuthModel.new_button(body).then((res: any) => {
-                console.log(res);
-                resolve(res);
-            });
-        });
-    }
+
     schedule(body: any) {
         return new Promise(async function (resolve, reject) {
             AuthModel.schedule(body).then((res: any) => {
+                console.log(res);
+                resolve(res);
+            });
+        });
+    }
+    update_about1(body: any){
+        return new Promise(async function (resolve, reject) {
+             AuthModel.update_about1(body).then((res: any) => {
                 console.log(res);
                 resolve(res);
             });
@@ -53,9 +56,18 @@ export class AuthService {
             });
         });
     }
-    updateannouncements (body: any) {
+updateannouncements (body: any) {
         return new Promise(async function (resolve, reject) {
             AuthModel.updateannouncements(body).then((res: any) => {
+                console.log(res);
+                resolve(res);
+            });
+        });
+    }
+    add_schedule(body: any){
+        return new Promise(async function (resolve, reject) {
+             AuthModel.add_schedule(body).then((res: any) => {
+
                 console.log(res);
                 resolve(res);
             });
@@ -69,6 +81,7 @@ export class AuthService {
             });
         });
     }
+
     postservices(body: any) {
         return new Promise(async function (resolve, reject) {
             AuthModel.postservices(body).then((res: any) => {
@@ -77,6 +90,16 @@ export class AuthService {
             });
         });
     }
+
+    new_annnouncement1(body: any){
+        return new Promise(async function (resolve, reject) {
+             AuthModel.new_annnouncement1(body).then((res: any) => {
+                console.log(res);
+                resolve(res);
+            });
+        });
+    }
+
     putservices(body: any) {
         return new Promise(async function (resolve, reject) {
             AuthModel.putservices(body).then((res: any) => {
@@ -85,17 +108,18 @@ export class AuthService {
             });
         });
     }
-    contact_and_hours(body: any) {
+
+       // delete_announcement1(body: any){
+    //     return new Promise(async function (resolve, reject) {
+    //          AuthModel.delete_announcement1(body).then((res: any) => {
+    //             console.log(res);
+    //             resolve(res);
+    //         });
+    //     });
+    // }
+        contact_and_hours(body: any){
         return new Promise(async function (resolve, reject) {
-            AuthModel.services(body).then((res: any) => {
-                console.log(res);
-                resolve(res);
-            });
-        });
-    }
-    notificatins(body: any) {
-        return new Promise(async function (resolve, reject) {
-            AuthModel.services(body).then((res: any) => {
+             AuthModel.contact_and_hours(body).then((res: any) => {
                 console.log(res);
                 resolve(res);
             });
@@ -109,8 +133,17 @@ export class AuthService {
             });
         });
     }
-    
-    add_user(body: any) {
+
+    notifications(body: any){
+        return new Promise(async function (resolve, reject) {
+             AuthModel.notifications(body).then((res: any) => {
+                console.log(res);
+                resolve(res);
+            });
+        });
+    }
+ 
+   add_user(body: any) {
         return new Promise(async function (resolve, reject) {
             AuthModel.add_user(body).then((res: any) => {
                 console.log(res);
@@ -165,5 +198,4 @@ export class AuthService {
     //                 resolve(res);
     //             });
     //         });
-    //     }
-}
+        }

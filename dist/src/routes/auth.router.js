@@ -20,17 +20,19 @@ exports.default = [
     {
         path: "/about",
         method: "get",
-        handler: [auth_controller_1.authController.applications],
+
+        handler: [auth_controller_1.authController.about],
     },
     {
-        path: "/new_button",
-        method: "get",
-        handler: [auth_controller_1.authController.applications],
+        path: "/update_about1",
+        method: "put",
+        handler: [auth_controller_1.authController.update_about1],
     },
     {
-        path: "/schedule",
-        method: "get",
-        handler: [auth_controller_1.authController.applications],
+        path: "/add_schedule",
+        method: "post",
+        handler: [auth_controller_1.authController.add_schedule],
+
     },
     {
         path: "/announcements",
@@ -43,8 +45,24 @@ exports.default = [
         handler: [auth_controller_1.authController.updateannouncements],
     },
     {
+        path: "/new_annnouncement1",
+        method: "post",
+        handler: [auth_controller_1.authController.new_annnouncement1],
+    },
+    // {
+    //   path:"/delete_announcement1",
+    //   method:"delete",
+    //   handler:[authController.applications],
+    // },
+    {
+        path: "/update_announcements1",
+        method: "put",
+        handler: [auth_controller_1.authController.applications],
+    },
+    {
         path: "/services",
         method: "get",
+
         handler: [auth_controller_1.authController.services],
     },
     {
@@ -58,15 +76,26 @@ exports.default = [
         handler: [auth_controller_1.authController.putservices],
     },
     {
-        path: "/contact_and_hours",
-        method: "get",
+        path: "/add_service1",
+        method: "post",
         handler: [auth_controller_1.authController.applications],
+    },
+    {
+        path: "/update_service1",
+        method: "put",
+        handler: [auth_controller_1.authController.applications],
+    },
+    {
+        path: "/contact_and_hours",
+        method: "put",
+        handler: [auth_controller_1.authController.contact_and_hours],
     },
     {
         path: "/notifications",
         method: "get",
         handler: [auth_controller_1.authController.applications],
     },
+
     {
         path: "/updatenotifications",
         method: "put",
