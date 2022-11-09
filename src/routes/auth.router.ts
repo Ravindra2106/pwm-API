@@ -18,7 +18,7 @@ export default [
   {
     path:"/about",
     method:"get",
-<<<<<<< HEAD
+
     handler:[authController.about],
   },
   {
@@ -30,19 +30,6 @@ export default [
     path:"/add_schedule",
     method:"post",
     handler:[authController.add_schedule],
-=======
-    handler:[authController.applications],
-  },
-  {
-    path:"/new_button",
-    method:"get",
-    handler:[authController.applications],
-  },
-  {
-    path:"/schedule",
-    method:"get",
-    handler:[authController.applications],
->>>>>>> cb898fe3489c90cf289e017ed12b94e59317694c
   },
   {
     path:"/announcements",
@@ -50,7 +37,6 @@ export default [
     handler:[authController.announcements],
   },
   {
-<<<<<<< HEAD
     path:"/new_annnouncement1",
     method:"post",
     handler:[authController.new_annnouncement1],
@@ -61,37 +47,16 @@ export default [
   //   handler:[authController.applications],
   // },
   {
-    path:"/update_announcements1",
-    method:"put",
-    handler:[authController.applications],
-=======
     path:"/updateannouncements",
     method:"put",
     handler:[authController.updateannouncements],
->>>>>>> cb898fe3489c90cf289e017ed12b94e59317694c
-  },
-  {
-    path:"/services",
-    method:"get",
-<<<<<<< HEAD
-    handler:[authController.applications],
-  },
-  {
-    path:"/add_service1",
-    method:"post",
-    handler:[authController.applications],
-  },
-  {
-    path:"/update_service1",
-    method:"put",
-    handler:[authController.applications],
-  },
+
+  },  
   {
     path:"/contact_and_hours",
     method:"put",
     handler:[authController.contact_and_hours],
-=======
-    handler:[authController.services],
+
   },
   {
     path:"/postservices",
@@ -105,25 +70,18 @@ export default [
   },
   
   {
-    path:"/contact_and_hours",
-    method:"get",
-    handler:[authController.applications],
->>>>>>> cb898fe3489c90cf289e017ed12b94e59317694c
-  },
-  {
     path:"/notifications",
     method:"get",
     handler:[authController.applications],
   },
-<<<<<<< HEAD
-=======
+
+
   {
     path:"/updatenotifications",
     method:"put",
     handler:[authController.updatenotifications],
   },
-  
->>>>>>> cb898fe3489c90cf289e017ed12b94e59317694c
+
 // ,
 //   {
 //     path: "/update_user",

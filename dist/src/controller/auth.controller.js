@@ -22,70 +22,70 @@ authController.log_user = (req, res, next) => __awaiter(void 0, void 0, void 0, 
     service
         .log_user(req.body)
         .then((resp) => {
-<<<<<<< HEAD
-        return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-        });
-    }, (err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    })
+
+            return res.status(200).send({
+                status: 200,
+                message: 'success',
+                data: resp,
+            });
+        }, (err) => {
+            (0, errorHandler_1.ServerError)(err, res, next);
+        })
         .catch((err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    });
+            (0, errorHandler_1.ServerError)(err, res, next);
+        });
 });
 authController.add_user = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     const service = new auth_service_1.AuthService();
     service
         .add_user(req.body)
         .then((resp) => {
-        console.log('res', resp);
-        return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-        });
-    }, (err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    })
+            console.log('res', resp);
+            return res.status(200).send({
+                status: 200,
+                message: 'success',
+                data: resp,
+            });
+        }, (err) => {
+            (0, errorHandler_1.ServerError)(err, res, next);
+        })
         .catch((err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    });
+            (0, errorHandler_1.ServerError)(err, res, next);
+        });
 });
 authController.applications = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     const service = new auth_service_1.AuthService();
     service
         .applications(req.body)
         .then((resp) => {
-        return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-        });
-    }, (err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    })
+            return res.status(200).send({
+                status: 200,
+                message: 'success',
+                data: resp,
+            });
+        }, (err) => {
+            (0, errorHandler_1.ServerError)(err, res, next);
+        })
         .catch((err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    });
+            (0, errorHandler_1.ServerError)(err, res, next);
+        });
 });
 authController.about = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     const service = new auth_service_1.AuthService();
     service
         .about(req.body)
         .then((resp) => {
-        return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-        });
-    }, (err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    })
+            return res.status(200).send({
+                status: 200,
+                message: 'success',
+                data: resp,
+            });
+        }, (err) => {
+            (0, errorHandler_1.ServerError)(err, res, next);
+        })
         .catch((err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    });
+            (0, errorHandler_1.ServerError)(err, res, next);
+        });
 });
 authController.update_about1 = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     const service = new auth_service_1.AuthService();
@@ -93,143 +93,113 @@ authController.update_about1 = (req, res, next) => __awaiter(void 0, void 0, voi
         .update_about1(req.body)
         .applications(req.body)
         .then((resp) => {
-        return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-        });
-    }, (err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    })
+            return res.status(200).send({
+                status: 200,
+                message: 'success',
+                data: resp,
+            });
+        }, (err) => {
+            (0, errorHandler_1.ServerError)(err, res, next);
+        })
         .catch((err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    });
-});
-authController.new_button = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
-    const service = new auth_service_1.AuthService();
-    service
-        .applications(req.body)
-        .then((resp) => {
-        return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
+            (0, errorHandler_1.ServerError)(err, res, next);
         });
-    }, (err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    })
-        .catch((err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    });
 });
-<<<<<<< HEAD
+
+
 authController.add_schedule = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     const service = new auth_service_1.AuthService();
     service
         .add_schedule(req.body)
-=======
-authController.schedule = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
-    const service = new auth_service_1.AuthService();
-    service
-        .applications(req.body)
->>>>>>> cb898fe3489c90cf289e017ed12b94e59317694c
-        .then((resp) => {
-        return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-        });
-    }, (err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    })
-        .catch((err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
+    authController.schedule = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
+        const service = new auth_service_1.AuthService();
+        service
+            .applications(req.body)
+            .then((resp) => {
+                return res.status(200).send({
+                    status: 200,
+                    message: 'success',
+                    data: resp,
+                });
+            }, (err) => {
+                (0, errorHandler_1.ServerError)(err, res, next);
+            })
+            .catch((err) => {
+                (0, errorHandler_1.ServerError)(err, res, next);
+            });
     });
 });
-authController.announcements = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
-    const service = new auth_service_1.AuthService();
-    service
-        .announcements(req.body)
-        .then((resp) => {
-        return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-        });
-    }, (err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    })
-        .catch((err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
+    authController.announcements = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
+        const service = new auth_service_1.AuthService();
+        service
+            .announcements(req.body)
+            .then((resp) => {
+                return res.status(200).send({
+                    status: 200,
+                    message: 'success',
+                    data: resp,
+                });
+            }, (err) => {
+                (0, errorHandler_1.ServerError)(err, res, next);
+            })
+            .catch((err) => {
+                (0, errorHandler_1.ServerError)(err, res, next);
+            });
     });
-});
-<<<<<<< HEAD
-authController.new_annnouncement1 = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
-    const service = new auth_service_1.AuthService();
-    service
-        .new_annnouncement1(req.body)
-=======
-authController.updateannouncements = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
-    const service = new auth_service_1.AuthService();
-    service
-        .updateannouncements(req.body)
->>>>>>> cb898fe3489c90cf289e017ed12b94e59317694c
-        .then((resp) => {
-        return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-        });
-    }, (err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    })
-        .catch((err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
+    authController.new_annnouncement1 = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
+        const service = new auth_service_1.AuthService();
+        service
+            .new_annnouncement1(req.body)
+            .then((resp) => {
+                return res.status(200).send({
+                    status: 200,
+                    message: 'success',
+                    data: resp,
+                });
+            }, (err) => {
+                (0, errorHandler_1.ServerError)(err, res, next);
+            })
+            .catch((err) => {
+                (0, errorHandler_1.ServerError)(err, res, next);
+            });
     });
-});
-<<<<<<< HEAD
-authController.update_announcements1 = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
-    const service = new auth_service_1.AuthService();
-    service
-        .update_announcements1(req.body)
-        .then((resp) => {
-        return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-        });
-    }, (err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    })
-        .catch((err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
+    authController.updateannouncements = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
+        const service = new auth_service_1.AuthService();
+        service
+            .updateannouncements(req.body)
+            .then((resp) => {
+                return res.status(200).send({
+                    status: 200,
+                    message: 'success',
+                    data: resp,
+                });
+            }, (err) => {
+                (0, errorHandler_1.ServerError)(err, res, next);
+            })
+            .catch((err) => {
+                (0, errorHandler_1.ServerError)(err, res, next);
+            });
     });
-});
-// static delete_announcement1: any = async (req: Request, res: Response, next: NextFunction) => {
-//   const service = new AuthService();
-//   service
-//     .applications(req.body)
-//     .then(
-//       (resp: any) => {
-//         return res.status(200).send({
-//           status: 200,
-//           message: 'success',
-//           data: resp,
-//         } );
-//       },
-//       (err: Error) => {
-//         ServerError(err, res, next);
-//       }
-//     )
-//     .catch((err: Error) => {
-//       ServerError(err, res, next);
-//     });
-// }
-authController.services = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
-    const service = new auth_service_1.AuthService();
-    service
-        .applications(req.body)
-=======
+    // static delete_announcement1: any = async (req: Request, res: Response, next: NextFunction) => {
+    //   const service = new AuthService();
+    //   service
+    //     .applications(req.body)
+    //     .then(
+    //       (resp: any) => {
+    //         return res.status(200).send({
+    //           status: 200,
+    //           message: 'success',
+    //           data: resp,
+    //         } );
+    //       },
+    //       (err: Error) => {
+    //         ServerError(err, res, next);
+    //       }
+    //     )
+    //     .catch((err: Error) => {
+    //       ServerError(err, res, next);
+    //     });
+    // }
 authController.services = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     const service = new auth_service_1.AuthService();
     service
@@ -268,47 +238,40 @@ authController.putservices = (req, res, next) => __awaiter(void 0, void 0, void 
     const service = new auth_service_1.AuthService();
     service
         .putservices(req.body)
->>>>>>> cb898fe3489c90cf289e017ed12b94e59317694c
-        .then((resp) => {
-        return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-        });
-    }, (err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    })
-        .catch((err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
+            .then((resp) => {
+                return res.status(200).send({
+                    status: 200,
+                    message: 'success',
+                    data: resp,
+                });
+            }, (err) => {
+                (0, errorHandler_1.ServerError)(err, res, next);
+            })
+            .catch((err) => {
+                (0, errorHandler_1.ServerError)(err, res, next);
+            });
     });
-});
-authController.contact_and_hours = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
-    const service = new auth_service_1.AuthService();
-    service
-<<<<<<< HEAD
-        .contact_and_hours(req.body)
-=======
-        .applications(req.body)
->>>>>>> cb898fe3489c90cf289e017ed12b94e59317694c
-        .then((resp) => {
-        return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-        });
-    }, (err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    })
-        .catch((err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
+    authController.contact_and_hours = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
+        const service = new auth_service_1.AuthService();
+        service
+            .contact_and_hours(req.body)
+            .then((resp) => {
+                return res.status(200).send({
+                    status: 200,
+                    message: 'success',
+                    data: resp,
+                });
+            }, (err) => {
+                (0, errorHandler_1.ServerError)(err, res, next);
+            })
+            .catch((err) => {
+                (0, errorHandler_1.ServerError)(err, res, next);
+            });
     });
-});
-authController.notifications = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
-    const service = new auth_service_1.AuthService();
-    service
-        .applications(req.body)
-<<<<<<< HEAD
-=======
+    authController.notifications = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
+        const service = new auth_service_1.AuthService();
+        service
+            .applications(req.body)
         .then((resp) => {
         return res.status(200).send({
             status: 200,
@@ -339,22 +302,5 @@ authController.updatenotifications = (req, res, next) => __awaiter(void 0, void 
         (0, errorHandler_1.ServerError)(err, res, next);
     });
 });
-authController.add_user = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
-    const service = new auth_service_1.AuthService();
-    service
-        .add_user(req.body)
->>>>>>> cb898fe3489c90cf289e017ed12b94e59317694c
-        .then((resp) => {
-        return res.status(200).send({
-            status: 200,
-            message: 'success',
-            data: resp,
-        });
-    }, (err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    })
-        .catch((err) => {
-        (0, errorHandler_1.ServerError)(err, res, next);
-    });
-});
+
 //# sourceMappingURL=auth.controller.js.map
