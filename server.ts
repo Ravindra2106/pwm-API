@@ -1,6 +1,6 @@
 import http from 'http';
 import express, { Express, Request, Response } from 'express';
-import dotenv from 'dotenv';
+import dotenv  from 'dotenv';
 import { applyMiddleware, applyRoutes } from './src/middleware/routes.config';
 import { logger } from './src/config/logger';
 import routes from './src/routes';
