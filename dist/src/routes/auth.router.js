@@ -32,7 +32,6 @@ exports.default = [
         method: "post",
         handler: [auth_controller_1.authController.add_schedule],
     },
-
     {
         path: "/announcements",
         method: "get",
@@ -67,6 +66,11 @@ exports.default = [
         path: "/putservices",
         method: "put",
         handler: [auth_controller_1.authController.putservices],
+    },
+    {
+        path: "/notifications",
+        method: "get",
+        handler: [auth_controller_1.authController.applications],
     },
     {
         path: "/updatenotifications",

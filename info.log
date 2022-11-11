@@ -717,3 +717,22 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5003..."}
 
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"extra":{"code":"ER_BAD_DB_ERROR","errno":1049,"fatal":true,"sqlMessage":"Unknown database 'pmw'","sqlState":"42000"},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"extra":{"code":"ER_BAD_DB_ERROR","errno":1049,"fatal":true,"sqlMessage":"Unknown database 'pmw'","sqlState":"42000"},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"extra":{"code":"ER_BAD_DB_ERROR","errno":1049,"fatal":true,"sqlMessage":"Unknown database 'pmw'","sqlState":"42000"},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"extra":{"code":"ER_BAD_DB_ERROR","errno":1049,"fatal":true,"sqlMessage":"Unknown database 'pmw'","sqlState":"42000"},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"extra":{"code":"ER_BAD_DB_ERROR","errno":1049,"fatal":true,"sqlMessage":"Unknown database 'pmw'","sqlState":"42000"},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}

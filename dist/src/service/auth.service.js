@@ -67,13 +67,28 @@ class AuthService {
             });
         });
     }
-
-
+    // announcements(body: any) {
+    //     return new Promise(async function (resolve, reject) {
+    //         AuthModel.announcements(body).then((res: any) => {
+    //             console.log(res);
+    //             resolve(res);
+    //         });
+    //     });
+    // }
     add_schedule(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
                 auth_model_1.AuthModel.add_schedule(body).then((res) => {
-
+                    console.log(res);
+                    resolve(res);
+                });
+            });
+        });
+    }
+    updateannouncements(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                auth_model_1.AuthModel.updateannouncements(body).then((res) => {
                     console.log(res);
                     resolve(res);
                 });
@@ -100,58 +115,10 @@ class AuthService {
             });
         });
     }
-    updateannouncements(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                auth_model_1.AuthModel.updateannouncements(body).then((res) => {
-                    console.log(res);
-                    resolve(res);
-                });
-            });
-        });
-    }
-    // delete_announcement1(body: any){
-    //     return new Promise(async function (resolve, reject) {
-    //          AuthModel.delete_announcement1(body).then((res: any) => {
-    //             console.log(res);
-    //             resolve(res);
-    //         });
-    //     });
-    // }
-    services(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                auth_model_1.AuthModel.services(body).then((res) => {
-                    console.log(res);
-                    resolve(res);
-                });
-            });
-        });
-    }
-    contact_and_hours(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                auth_model_1.AuthModel.contact_and_hours(body).then((res) => {
-                    console.log(res);
-                    resolve(res);
-                });
-            });
-        });
-    }
     postservices(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
                 auth_model_1.AuthModel.postservices(body).then((res) => {
-                    console.log(res);
-                    resolve(res);
-                });
-            });
-        });
-    }
-    notifications(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                auth_model_1.AuthModel.notifications(body).then((res) => {
                     console.log(res);
                     resolve(res);
                 });
@@ -168,6 +135,40 @@ class AuthService {
             });
         });
     }
+    // delete_announcement1(body: any){
+    //     return new Promise(async function (resolve, reject) {
+    //          AuthModel.delete_announcement1(body).then((res: any) => {
+    //             console.log(res);
+    //             resolve(res);
+    //         });
+    //     });
+    // }
+    // services(body: any){
+    //     return new Promise(async function (resolve, reject) {
+    //          AuthModel.services(body).then((res: any) => {
+    //             console.log(res);
+    //             resolve(res);
+    //         });
+    //     });
+    // }
+    contact_and_hours(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                auth_model_1.AuthModel.contact_and_hours(body).then((res) => {
+                    //     notificatins(body: any) {
+                    //         return new Promise(async function (resolve, reject) {
+                    //             AuthModel.services(body).then((res: any) => {
+                    // >>>>>>> cb898fe3489c90cf289e017ed12b94e59317694c
+                    console.log(res);
+                    resolve(res);
+                });
+            });
+        });
+    }
+    // <<<<<<< HEAD
+    //     notifications(body: any){
+    //         return new Promise(async function (resolve, reject) {
+    //              AuthModel.notifications(body).then((res: any) => {
     updatenotifications(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
@@ -178,8 +179,6 @@ class AuthService {
             });
         });
     }
-                    
 }
-
 exports.AuthService = AuthService;
 //# sourceMappingURL=auth.service.js.map

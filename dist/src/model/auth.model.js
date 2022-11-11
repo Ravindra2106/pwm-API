@@ -32,7 +32,6 @@ class AuthModel {
             });
         });
     }
-
     static add_user(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
@@ -65,7 +64,6 @@ class AuthModel {
             });
         });
     }
-
     static applications(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
@@ -136,26 +134,27 @@ class AuthModel {
             });
         });
     }
-    static new_button(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`new_button`();',
-                    values: [],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
+    // static new_button(body: any) {
+    //   return new Promise(async function (resolve, reject) {
+    //     console.log('body', body);
+    //     dbClient.query(
+    //       {
+    //         sql: 'CALL `pmw`.`new_button`();',
+    //         values: [],
+    //       },
+    //       function (err: Error, res: any) {
+    //         if (err) {
+    //           // console.log('err',err);
+    //           resolve(err)
+    //             ;
+    //         } else {
+    //           console.log('response', res);
+    //           resolve(res);
+    //         }
+    //       }
+    //     );
+    //   });
+    // }
     static add_schedule(body) {
         console.log("body", body);
         return new Promise(function (resolve, reject) {
@@ -221,15 +220,13 @@ class AuthModel {
             });
         });
     }
-    static update_announcements1(body) {
+    static updateannouncements(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
                 console.log('body', body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`update_announcement`(?, ?, ?, ?, ?, ?); ',
-                    values: [
-                        body._date_from, body._date_to, body._image, body.title, body._descrp, body._status
-                    ],
+                    sql: 'CALL `pmw`.`updateannouncements`(?, ?, ?, ?, ?, ?);',
+                    values: [body._date_from, body._date_to, body._image, body._title, body._description, body._status],
                 }, function (err, res) {
                     if (err) {
                         // console.log('err',err);
@@ -266,13 +263,54 @@ class AuthModel {
     //     );
     //   });
     // }
-    static services(body) {
+    // static services(body: any) {
+    //   return new Promise(async function (resolve, reject) {
+    //     console.log('body', body);
+    //     dbClient.query(
+    //       {
+    //         sql: 'CALL `pmw`.`services`();',
+    //         values: [],
+    //       },
+    //       function (err: Error, res: any) {
+    //         if (err) {
+    //           // console.log('err',err);
+    //           resolve(err)
+    //             ;
+    //         } else {
+    //           console.log('response', res);
+    //           resolve(res);
+    //         }
+    //       }
+    //     );
+    //   });
+    // }
+    static postservices(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
                 console.log('body', body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`services`();',
-                    values: [],
+                    sql: 'CALL `pmw`.`add_service`(?, ?, ?, ?, ?);',
+                    values: [body.sr_no, body._image, body.web_url, body.ph_no, body.sr_title],
+                }, function (err, res) {
+                    if (err) {
+                        // console.log('err',err);
+                        resolve(err);
+                    }
+                    else {
+                        console.log('response', res);
+                        resolve(res);
+                    }
+                });
+            });
+        });
+    }
+    static putservices(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                console.log('body', body);
+                db_1.dbClient.query({
+                    sql: 'CALL `pmw`.`update_services`(?, ?, ?, ?, ?);',
+                    values: [body.sr_no, body._image, body.web_url, body.ph_no, body.sr_title],
                 }, function (err, res) {
                     if (err) {
                         // console.log('err',err);
@@ -314,128 +352,27 @@ class AuthModel {
             });
         });
     }
-    static notifications(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`notifications`();',
-
-                    values: [],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    static about(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`about`();',
-                    values: [],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    
-    static updateannouncements(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`update_announcement`(?, ?, ?, ?, ?, ?);',
-                    values: [body._date_from, body._date_to, body._image, body._title, body._description, body._status],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    static services(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`services`();',
-                    values: [],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    static postservices(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`add_service`(?, ?, ?, ?, ?);',
-                    values: [body.sr_no, body._image, body.web_url, body.ph_no, body.sr_title],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    static putservices(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`update_services`(?, ?, ?, ?, ?);',
-                    values: [body.sr_no, body._image, body.web_url, body.ph_no, body.sr_title],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
+    // static notifications(body: any) {
+    //   return new Promise(async function (resolve, reject) {
+    //     console.log('body', body);
+    //     dbClient.query(
+    //       {
+    //         sql: 'CALL `pmw`.`notifications`();',
+    //         values: [],
+    //       },
+    //       function (err: Error, res: any) {
+    //         if (err) {
+    //           // console.log('err',err);
+    //           resolve(err)
+    //             ;
+    //         } else {
+    //           console.log('response', res);
+    //           resolve(res);
+    //         }
+    //       }
+    //     );
+    //   });
+    // }
     static updatenotifications(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
@@ -456,7 +393,6 @@ class AuthModel {
             });
         });
     }
-    
 }
 exports.AuthModel = AuthModel;
 //# sourceMappingURL=auth.model.js.map
