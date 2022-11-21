@@ -3,17 +3,20 @@ import { dbClient } from "../config/db";
 import { AuthService } from "../service/auth.service";
 import { ServerError } from "../utils/errorHandler";
 export class authController {
-
-  static log_user: any = async (req: Request, res: Response, next: NextFunction) => {
+  static log_user: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
       .log_user(req.body)
       .then(
         (resp: any) => {
-          console.log('res', resp)
+          console.log("res", resp);
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -24,8 +27,12 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
-  static applications: any = async (req: Request, res: Response, next: NextFunction) => {
+  };
+  static applications: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
       .applications(req.body)
@@ -33,7 +40,7 @@ export class authController {
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -44,9 +51,13 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
+  };
 
-  static add_user: any = async (req: Request, res: Response, next: NextFunction) => {
+  static add_user: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
       .add_user(req.body)
@@ -54,7 +65,7 @@ export class authController {
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -65,7 +76,7 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
+  };
   // static applications: any = async (req: Request, res: Response, next: NextFunction) => {
   //   const service = new AuthService();
   //   service
@@ -86,7 +97,11 @@ export class authController {
   //       ServerError(err, res, next);
   //     });
   // }
-  static about: any = async (req: Request, res: Response, next: NextFunction) => {
+  static about: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
       .about(req.body)
@@ -94,7 +109,7 @@ export class authController {
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -105,8 +120,12 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
-  static update_about1: any = async (req: Request, res: Response, next: NextFunction) => {
+  };
+  static update_about1: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
       .update_about1(req.body)
@@ -114,7 +133,7 @@ export class authController {
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -125,8 +144,12 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
-  static new_button: any = async (req: Request, res: Response, next: NextFunction) => {
+  };
+  static new_button: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
       .applications(req.body)
@@ -134,7 +157,7 @@ export class authController {
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -145,16 +168,20 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
-  static add_schedule: any = async (req: Request, res: Response, next: NextFunction) => {
+  };
+  static create_schedule: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
-      .add_schedule(req.body)
+      .create_schedule(req.body)
       .then(
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -165,8 +192,12 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
-  static announcements: any = async (req: Request, res: Response, next: NextFunction) => {
+  };
+  static announcements: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
       .announcements(req.body)
@@ -174,7 +205,7 @@ export class authController {
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -185,8 +216,12 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
-  static updateannouncements: any = async (req: Request, res: Response, next: NextFunction) => {
+  };
+  static updateannouncements: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
       .updateannouncements(req.body)
@@ -194,7 +229,7 @@ export class authController {
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -205,8 +240,12 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
-  static new_annnouncement1: any = async (req: Request, res: Response, next: NextFunction) => {
+  };
+  static new_annnouncement1: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
       .new_annnouncement1(req.body)
@@ -215,7 +254,7 @@ export class authController {
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -226,16 +265,20 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
-  static services: any = async (req: Request, res: Response, next: NextFunction) => {
+  };
+  static services: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
-      .services(req.body)
+      .services(req.query)
       .then(
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -246,8 +289,12 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
-  static postservices: any = async (req: Request, res: Response, next: NextFunction) => {
+  };
+  static postservices: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
       .postservices(req.body)
@@ -255,7 +302,7 @@ export class authController {
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -266,7 +313,80 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
+  };
+  static putservices: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    const service = new AuthService();
+    service
+      .putservices(req.body)
+      .then(
+        (resp: any) => {
+          return res.status(200).send({
+            status: 200,
+            message: "success",
+            data: resp,
+          });
+        },
+        (err: Error) => {
+          ServerError(err, res, next);
+        }
+      )
+      .catch((err: Error) => {
+        ServerError(err, res, next);
+      });
+  };
+  static eyeputservices: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    const service = new AuthService();
+    service
+      .eyeputservices(req.body)
+      .then(
+        (resp: any) => {
+          return res.status(200).send({
+            status: 200,
+            message: "success",
+            data: resp,
+          });
+        },
+        (err: Error) => {
+          ServerError(err, res, next);
+        }
+      )
+      .catch((err: Error) => {
+        ServerError(err, res, next);
+      });
+  };
+  static eyeputservices1: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    const service = new AuthService();
+    service
+      .eyeputservices1(req.body)
+      .then(
+        (resp: any) => {
+          return res.status(200).send({
+            status: 200,
+            message: "success",
+            data: resp,
+          });
+        },
+        (err: Error) => {
+          ServerError(err, res, next);
+        }
+      )
+      .catch((err: Error) => {
+        ServerError(err, res, next);
+      });
+  };
+
   // static delete_announcement1: any = async (req: Request, res: Response, next: NextFunction) => {
   //   const service = new AuthService();
   //   service
@@ -287,7 +407,11 @@ export class authController {
   //       ServerError(err, res, next);
   //     });
   // }
-  static contact_and_hours: any = async (req: Request, res: Response, next: NextFunction) => {
+  static contact_and_hours: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
       .contact_and_hours(req.body)
@@ -295,7 +419,7 @@ export class authController {
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -306,16 +430,20 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
-  static notifications: any = async (req: Request, res: Response, next: NextFunction) => {
+  };
+  static notifications: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
-      .applications(req.body)
+      .notifications(req.body)
       .then(
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -326,8 +454,37 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
-  static updatenotifications: any = async (req: Request, res: Response, next: NextFunction) => {
+  };
+  static newnotifications: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    const service = new AuthService();
+    service
+      .newnotifications(req.body)
+      .then(
+        (resp: any) => {
+          return res.status(200).send({
+            status: 200,
+            message: "success",
+            data: resp,
+          });
+        },
+        (err: Error) => {
+          ServerError(err, res, next);
+        }
+      )
+      .catch((err: Error) => {
+        ServerError(err, res, next);
+      });
+  };
+
+  static updatenotifications: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
     const service = new AuthService();
     service
       .updateannouncements(req.body)
@@ -335,7 +492,7 @@ export class authController {
         (resp: any) => {
           return res.status(200).send({
             status: 200,
-            message: 'success',
+            message: "success",
             data: resp,
           });
         },
@@ -346,7 +503,7 @@ export class authController {
       .catch((err: Error) => {
         ServerError(err, res, next);
       });
-  }
+  };
   //   static update_user: any = async (req: Request, res: Response, next: NextFunction) => {
   //     const service = new AuthService();
   //     service
@@ -469,12 +626,3 @@ export class authController {
   //         ServerError(err, res, next);
   //       });
 }
-
-
-
-
-
-
-
-
-

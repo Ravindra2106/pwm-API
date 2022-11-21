@@ -15,9 +15,9 @@ class AuthModel {
     static log_user(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`get_user`(?, ?);',
+                    sql: "CALL `pmw`.`get_user`(?, ?);",
                     values: [body.user_namee, body.passletter],
                 }, function (err, res) {
                     if (err) {
@@ -25,7 +25,7 @@ class AuthModel {
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
@@ -35,29 +35,51 @@ class AuthModel {
     static add_user(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`addnewapp`(?,?, ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?); ',
-                    values: [body.name_app,
+                    sql: "CALL `pmw`.`addnewapp`(?,?, ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?); ",
+                    values: [
+                        body.name_app,
                         body.app_descr,
                         body.keywrd,
                         body.prime_color,
                         body.prime_text_color,
                         body.second_color,
                         body.second_text_color,
-                        body.add_app_icon, body.splash_src, body.add_scrshot,
-                        body.mon_from, body.mon_to, body.tue_from, body.tue_to, body.wed_from, body.wed_to,
-                        body.thurs_from, body.thurs_to, body.fri_from, body.fri_to, body.sat_from, body.sat_to,
-                        body.sun_from, body.sun_to,
-                        body.full_addr, body.map_codnate, body.mobile, body.mail_id,
-                        body.url, body.fb, body.tweet, body.insta, body.linkin]
+                        body.add_app_icon,
+                        body.splash_src,
+                        body.add_scrshot,
+                        body.mon_from,
+                        body.mon_to,
+                        body.tue_from,
+                        body.tue_to,
+                        body.wed_from,
+                        body.wed_to,
+                        body.thurs_from,
+                        body.thurs_to,
+                        body.fri_from,
+                        body.fri_to,
+                        body.sat_from,
+                        body.sat_to,
+                        body.sun_from,
+                        body.sun_to,
+                        body.full_addr,
+                        body.map_codnate,
+                        body.mobile,
+                        body.mail_id,
+                        body.url,
+                        body.fb,
+                        body.tweet,
+                        body.insta,
+                        body.linkin,
+                    ],
                 }, function (err, res) {
                     if (err) {
                         // console.log('err',err);
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
@@ -67,9 +89,9 @@ class AuthModel {
     static applications(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`applications`();',
+                    sql: "CALL `pmw`.`applications`();",
                     values: [],
                 }, function (err, res) {
                     if (err) {
@@ -77,7 +99,7 @@ class AuthModel {
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
@@ -87,9 +109,9 @@ class AuthModel {
     static about(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`get_about`();',
+                    sql: "CALL `pmw`.`get_about`();",
                     values: [
                     //   body._change_app_icon,
                     // body._primary_color, body._primary_text_color, body._secondary_color,
@@ -102,7 +124,7 @@ class AuthModel {
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
@@ -112,14 +134,21 @@ class AuthModel {
     static update_about1(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`_about`(?, ?, ?, ?, ?,?,?, ?, ?,?);',
+                    sql: "CALL `pmw`.`_about`(?, ?, ?, ?, ?,?,?, ?, ?,?);",
                     values: [
                         // body._change_app_icon,
-                        body._primary_color, body._primary_text_color, body._secondary_color,
-                        body._secondary_text_color, body._app_name, body._app_description,
-                        body._keywords, body._upload_app_icon, body._splash_screen, body._upload_screenshots
+                        body._primary_color,
+                        body._primary_text_color,
+                        body._secondary_color,
+                        body._secondary_text_color,
+                        body._app_name,
+                        body._app_description,
+                        body._keywords,
+                        body._upload_app_icon,
+                        body._splash_screen,
+                        body._upload_screenshots,
                     ],
                 }, function (err, res) {
                     if (err) {
@@ -127,7 +156,7 @@ class AuthModel {
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
@@ -137,9 +166,9 @@ class AuthModel {
     static new_button(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`new_button`();',
+                    sql: "CALL `pmw`.`new_button`();",
                     values: [],
                 }, function (err, res) {
                     if (err) {
@@ -147,22 +176,34 @@ class AuthModel {
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
             });
         });
     }
-    static add_schedule(body) {
+    static create_schedule(body) {
         console.log("body", body);
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`add_schedule`(?);',
+                    sql: "CALL `powerwellness`.` create_schedule`(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);",
                     values: [
-                        body._upload_schedule
+                        body.sch_name,
+                        body.sch_activity,
+                        body.sch_date,
+                        body.sch_from_time,
+                        body.sch_to_time,
+                        body.sch_activity_type,
+                        body.sch_description,
+                        body.sch_instructor,
+                        body.sch_activity_url,
+                        body.sch_sch_col_unf1,
+                        body.sch_sch_col_unf2,
+                        body.sch_resource_location,
+                        body.app_num,
                     ],
                 }, function (err, res) {
                     if (err) {
@@ -170,7 +211,28 @@ class AuthModel {
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
+                        console.log("response", res);
+                        resolve(res);
+                    }
+                });
+            });
+        });
+    }
+    static get_schedule(body) {
+        console.log("body", body);
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                console.log("body", body);
+                db_1.dbClient.query({
+                    sql: "CALL `pmw`.`get_schedule`();",
+                    values: [body.upload_schedule],
+                }, function (err, res) {
+                    if (err) {
+                        // console.log('err',err);
+                        resolve(err);
+                    }
+                    else {
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
@@ -180,9 +242,9 @@ class AuthModel {
     static announcements(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`announcement`();',
+                    sql: "CALL `pmw`.`announcement`();",
                     values: [],
                 }, function (err, res) {
                     if (err) {
@@ -190,222 +252,7 @@ class AuthModel {
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    static new_annnouncement1(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body in new_announcement1', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`new_announcement`(?, ?, ?, ?, ?, ?); ',
-                    values: [
-                        body._date_from, body._date_to, body._image, body._title, body._descrp, body._status
-                    ],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    static update_announcements1(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`update_announcement`(?, ?, ?, ?, ?, ?); ',
-                    values: [
-                        body._date_from, body._date_to, body._image, body.title, body._descrp, body._status
-                    ],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    // static delete_announcement1(body: any) {
-    //   return new Promise(async function (resolve, reject) {
-    //     console.log('body', body);
-    //     dbClient.query(
-    //       {
-    //         sql: 'CALL `pmw`.`new_announcement`(?, ?, ?, ?, ?, ?); ',
-    //         values: [ 
-    //           body._date_from,body._date_to,body._image,body.title,body._descrp,body._status
-    //         ],
-    //       },
-    //       function (err: Error, res: any) {
-    //         if (err) {
-    //           // console.log('err',err);
-    //           resolve(err)
-    //             ;
-    //         } else {
-    //           console.log('response', res);
-    //           resolve(res);
-    //         }
-    //       }
-    //     );
-    //   });
-    // }
-    static services(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`services`();',
-                    values: [],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    static contact_and_hours(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`update_contact_and_hours`(?,?,?,?, ?, ?,?, ?, ?, ?, ?, ?,?, ?, ?,?,?, ?,?,?, ?, ?, ?);',
-                    values: [
-                        body.mon_from, body.mon_to, body.tue_from,
-                        body.tue_to, body.wed_from, body.wed_to,
-                        body.thurs_from, body.thurs_to, body.fri_from,
-                        body.fri_to, body.sat_from, body.sat_to,
-                        body.sun_from, body.sun_to, body.full_addr,
-                        body.map_codnate, body.mobile, body.mail_id,
-                        body.url, body.fb, body.tweet, body.insta, body.linkin
-                    ],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    static notifications(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`notifications`();',
-                    values: [],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    static about(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`about`();',
-                    values: [],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    static new_button(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`new_button`();',
-                    values: [],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    static schedule(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`schedule`();',
-                    values: [],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    static announcements(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`announcement`();',
-                    values: [],
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
@@ -415,17 +262,51 @@ class AuthModel {
     static updateannouncements(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`update_announcement`(?, ?, ?, ?, ?, ?);',
-                    values: [body._date_from, body._date_to, body._image, body._title, body._description, body._status],
+                    sql: "CALL `pmw`.`update_announcement`(?, ?, ?, ?, ?, ?);",
+                    values: [
+                        body._date_from,
+                        body._date_to,
+                        body._image,
+                        body._title,
+                        body._description,
+                        body._status,
+                    ],
                 }, function (err, res) {
                     if (err) {
                         // console.log('err',err);
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
+                        console.log("response", res);
+                        resolve(res);
+                    }
+                });
+            });
+        });
+    }
+    static new_annnouncement1(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                console.log("body in new_announcement1", body);
+                db_1.dbClient.query({
+                    sql: "CALL `pmw`.`new_announcement`(?, ?, ?, ?, ?, ?);",
+                    values: [
+                        body._date_from,
+                        body._date_to,
+                        body._image,
+                        body.title,
+                        body._descrp,
+                        body._status,
+                    ],
+                }, function (err, res) {
+                    if (err) {
+                        // console.log('err',err);
+                        resolve(err);
+                    }
+                    else {
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
@@ -435,17 +316,17 @@ class AuthModel {
     static services(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`services`();',
-                    values: [],
+                    sql: "CALL `powerwellness`.`get_services`(?);",
+                    values: [body.app_num],
                 }, function (err, res) {
                     if (err) {
                         // console.log('err',err);
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
@@ -455,17 +336,23 @@ class AuthModel {
     static postservices(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`add_service`(?, ?, ?, ?, ?);',
-                    values: [body.sr_no, body._image, body.web_url, body.ph_no, body.sr_title],
+                    sql: "CALL `powerwellness`.`create_services`(?, ?, ?, ?, ?);",
+                    values: [
+                        body.entitle,
+                        body.web_url,
+                        body.phone_no,
+                        body.photo,
+                        body.app_num,
+                    ],
                 }, function (err, res) {
                     if (err) {
-                        // console.log('err',err);
+                        console.log("err", err);
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
@@ -475,17 +362,64 @@ class AuthModel {
     static putservices(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`update_services`(?, ?, ?, ?, ?);',
-                    values: [body.sr_no, body._image, body.web_url, body.ph_no, body.sr_title],
+                    sql: "CALL `powerwellness`.`update_services`(?, ?, ?, ?, ?,?);",
+                    values: [
+                        body.id,
+                        body.entitle,
+                        body.web_url,
+                        body.phone_no,
+                        body.img_upload,
+                        body.app_num,
+                    ],
                 }, function (err, res) {
                     if (err) {
                         // console.log('err',err);
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
+                        console.log("response", res);
+                        resolve(res);
+                    }
+                });
+            });
+        });
+    }
+    static eyeputservices(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                console.log("body", body);
+                db_1.dbClient.query({
+                    sql: "CALL `powerwellness`.`update_eyeicon`(?, ?);",
+                    values: [body.svc_id, body.app_num],
+                }, function (err, res) {
+                    if (err) {
+                        // console.log('err',err);
+                        resolve(err);
+                    }
+                    else {
+                        console.log("response", res);
+                        resolve(res);
+                    }
+                });
+            });
+        });
+    }
+    static eyeputservices1(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                console.log("body", body);
+                db_1.dbClient.query({
+                    sql: "CALL `powerwellness`.`update_eyeicon1`(?, ?,?);",
+                    values: [body.svc_id, body.flag, body.app_num],
+                }, function (err, res) {
+                    if (err) {
+                        // console.log('err',err);
+                        resolve(err);
+                    }
+                    else {
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
@@ -495,17 +429,41 @@ class AuthModel {
     static contact_and_hours(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`contact_and_hours`();',
-                    values: [],
+                    sql: "CALL `pmw`.`update_contact_and_hours`(?,?,?,?, ?, ?,?, ?, ?, ?, ?, ?,?, ?, ?,?,?, ?,?,?, ?, ?, ?);",
+                    values: [
+                        body.mon_from,
+                        body.mon_to,
+                        body.tue_from,
+                        body.tue_to,
+                        body.wed_from,
+                        body.wed_to,
+                        body.thurs_from,
+                        body.thurs_to,
+                        body.fri_from,
+                        body.fri_to,
+                        body.sat_from,
+                        body.sat_to,
+                        body.sun_from,
+                        body.sun_to,
+                        body.full_addr,
+                        body.map_codnate,
+                        body.mobile,
+                        body.mail_id,
+                        body.url,
+                        body.fb,
+                        body.tweet,
+                        body.insta,
+                        body.linkin,
+                    ],
                 }, function (err, res) {
                     if (err) {
                         // console.log('err',err);
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
@@ -515,9 +473,9 @@ class AuthModel {
     static notifications(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`notifications`();',
+                    sql: "CALL `pmw`.`announcement`();",
                     values: [],
                 }, function (err, res) {
                     if (err) {
@@ -525,7 +483,34 @@ class AuthModel {
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
+                        console.log("response", res);
+                        resolve(res);
+                    }
+                });
+            });
+        });
+    }
+    static newnotifications(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                console.log("body", body);
+                db_1.dbClient.query({
+                    sql: "CALL `pmw`.`new_notifications`(?, ?, ?, ?, ?);",
+                    values: [
+                        body._date_from,
+                        body._date_to,
+                        body._image,
+                        body.title,
+                        body._descrp,
+                        body._status,
+                    ],
+                }, function (err, res) {
+                    if (err) {
+                        // console.log('err',err);
+                        resolve(err);
+                    }
+                    else {
+                        console.log("response", res);
                         resolve(res);
                     }
                 });
@@ -535,49 +520,23 @@ class AuthModel {
     static updatenotifications(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
+                console.log("body", body);
                 db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`update_notifications`(?, ?, ?, ?, ?)`();',
-                    values: [body._image, body._notify_title, body._notify_url, body._date_from, body._date_to],
+                    sql: "CALL `pmw`.`update_notifications`(?, ?, ?, ?, ?)`();",
+                    values: [
+                        body._image,
+                        body._notify_title,
+                        body._notify_url,
+                        body._date_from,
+                        body._date_to,
+                    ],
                 }, function (err, res) {
                     if (err) {
                         // console.log('err',err);
                         resolve(err);
                     }
                     else {
-                        console.log('response', res);
-                        resolve(res);
-                    }
-                });
-            });
-        });
-    }
-    static add_user(body) {
-        return new Promise(function (resolve, reject) {
-            return __awaiter(this, void 0, void 0, function* () {
-                console.log('body', body);
-                db_1.dbClient.query({
-                    sql: 'CALL `pmw`.`addnewapp`(?,?, ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?); ',
-                    values: [body.name_app,
-                        body.app_descr,
-                        body.keywrd,
-                        body.prime_color,
-                        body.prime_text_color,
-                        body.second_color,
-                        body.second_text_color,
-                        body.add_app_icon, body.splash_src, body.add_scrshot,
-                        body.mon_from, body.mon_to, body.tue_from, body.tue_to, body.wed_from, body.wed_to,
-                        body.thurs_from, body.thurs_to, body.fri_from, body.fri_to, body.sat_from, body.sat_to,
-                        body.sun_from, body.sun_to,
-                        body.full_addr, body.map_codnate, body.mobile, body.mail_id,
-                        body.url, body.fb, body.tweet, body.insta, body.linkin]
-                }, function (err, res) {
-                    if (err) {
-                        // console.log('err',err);
-                        resolve(err);
-                    }
-                    else {
-                        console.log('response', res);
+                        console.log("response", res);
                         resolve(res);
                     }
                 });

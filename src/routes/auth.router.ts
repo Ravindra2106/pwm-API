@@ -31,9 +31,9 @@ export default [
     handler: [authController.update_about1],
   },
   {
-    path: "/add_schedule",
+    path: "/create_schedule",
     method: "post",
-    handler: [authController.add_schedule],
+    handler: [authController.create_schedule],
   },
   {
     path: "/announcements",
@@ -41,7 +41,6 @@ export default [
     handler: [authController.announcements],
   },
   {
-
     path: "/updateannouncements",
     method: "put",
     handler: [authController.updateannouncements],
@@ -51,21 +50,9 @@ export default [
     method: "post",
     handler: [authController.new_annnouncement1],
   },
-  // {
-  //   path:"/delete_announcement1",
-  //   method:"delete",
-  //   handler:[authController.applications],
-  // },
-  {
-    path: "/update_announcements1",
-    method: "put",
-    handler: [authController.applications],
-
-  },
   {
     path: "/services",
     method: "get",
-
     handler: [authController.services],
   },
   {
@@ -76,19 +63,28 @@ export default [
   {
     path: "/putservices",
     method: "put",
-    handler: [authController.services],
+    handler: [authController.putservices],
   },
-
+  {
+    path: "/eyeputservices",
+    method: "put",
+    handler: [authController.eyeputservices],
+  },
+  {
+    path: "/eyeputservices1",
+    method: "put",
+    handler: [authController.eyeputservices1],
+  },
   {
     path: "/contact_and_hours",
     method: "get",
     handler: [authController.applications],
   },
-  {
-    path: "/add_service1",
-    method: "post",
-    handler: [authController.applications],
-  },
+  // {
+  //   path: "/add_service1",
+  //   method: "post",
+  //   handler: [authController.applications],
+  // },
 
   {
     path: "/contact_and_hours",
@@ -98,9 +94,13 @@ export default [
   {
     path: "/notifications",
     method: "get",
-    handler: [authController.applications],
+    handler: [authController.notifications],
   },
-
+  {
+    path: "/newnotifications",
+    method: "post",
+    handler: [authController.newnotifications],
+  },
   {
     path: "/updatenotifications",
     method: "put",
@@ -109,8 +109,8 @@ export default [
   {
     path: "/add_user",
     method: "post",
-    handler: [authController.add_user]
-  }
+    handler: [authController.add_user],
+  },
 
   // ,
   //   {
@@ -143,4 +143,4 @@ export default [
   //   method: "post",
   //   handler: [authController.dashboard],
   // },
-]
+];

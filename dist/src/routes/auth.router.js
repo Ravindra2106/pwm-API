@@ -20,8 +20,12 @@ exports.default = [
     {
         path: "/about",
         method: "get",
-
-        handler: [auth_controller_1.authController.about],
+        handler: [auth_controller_1.authController.applications],
+    },
+    {
+        path: "/new_button",
+        method: "get",
+        handler: [auth_controller_1.authController.applications],
     },
     {
         path: "/update_about1",
@@ -29,10 +33,9 @@ exports.default = [
         handler: [auth_controller_1.authController.update_about1],
     },
     {
-        path: "/add_schedule",
+        path: "/create_schedule",
         method: "post",
-        handler: [auth_controller_1.authController.add_schedule],
-
+        handler: [auth_controller_1.authController.create_schedule],
     },
     {
         path: "/announcements",
@@ -49,20 +52,9 @@ exports.default = [
         method: "post",
         handler: [auth_controller_1.authController.new_annnouncement1],
     },
-    // {
-    //   path:"/delete_announcement1",
-    //   method:"delete",
-    //   handler:[authController.applications],
-    // },
-    {
-        path: "/update_announcements1",
-        method: "put",
-        handler: [auth_controller_1.authController.applications],
-    },
     {
         path: "/services",
         method: "get",
-
         handler: [auth_controller_1.authController.services],
     },
     {
@@ -76,15 +68,25 @@ exports.default = [
         handler: [auth_controller_1.authController.putservices],
     },
     {
-        path: "/add_service1",
-        method: "post",
-        handler: [auth_controller_1.authController.applications],
+        path: "/eyeputservices",
+        method: "put",
+        handler: [auth_controller_1.authController.eyeputservices],
     },
     {
-        path: "/update_service1",
+        path: "/eyeputservices1",
         method: "put",
+        handler: [auth_controller_1.authController.eyeputservices1],
+    },
+    {
+        path: "/contact_and_hours",
+        method: "get",
         handler: [auth_controller_1.authController.applications],
     },
+    // {
+    //   path: "/add_service1",
+    //   method: "post",
+    //   handler: [authController.applications],
+    // },
     {
         path: "/contact_and_hours",
         method: "put",
@@ -93,13 +95,22 @@ exports.default = [
     {
         path: "/notifications",
         method: "get",
-        handler: [auth_controller_1.authController.applications],
+        handler: [auth_controller_1.authController.notifications],
     },
-
+    {
+        path: "/newnotifications",
+        method: "post",
+        handler: [auth_controller_1.authController.newnotifications],
+    },
     {
         path: "/updatenotifications",
         method: "put",
         handler: [auth_controller_1.authController.updatenotifications],
+    },
+    {
+        path: "/add_user",
+        method: "post",
+        handler: [auth_controller_1.authController.add_user],
     },
     // ,
     //   {
