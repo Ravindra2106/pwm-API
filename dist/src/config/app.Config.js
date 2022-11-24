@@ -12,7 +12,7 @@ exports.dbOptions = {
     port: 3306,
     user: "root",
     password: "root@123",
-    database: "pmw",
+    database: "powerwellness",
     charset: "utf8mb4",
     driver: "mysql",
     insecureAuth: true,

@@ -644,3 +644,668 @@
 {"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
 {"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
 {"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5008..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5003..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5003..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5003..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5008..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5006..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5008..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5006..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5008..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5008..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5006..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5003..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T08:57:42.549Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T08:59:41.934Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T09:05:26.728Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T09:06:51.521Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T09:07:20.839Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T09:11:05.441Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T09:13:29.849Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T09:35:55.911Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T10:04:44.148Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"action":{},"date_time":"2022-11-17T10:07:24.587Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"action":{},"date_time":"2022-11-17T10:10:45.247Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5005..."}
+{"action":{},"date_time":"2022-11-17T10:43:11.409Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5008..."}
+{"action":{},"date_time":"2022-11-17T10:48:50.523Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"action":{},"date_time":"2022-11-17T10:51:06.367Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5005..."}
+{"action":{},"date_time":"2022-11-17T10:53:29.526Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5006..."}
+{"action":{},"date_time":"2022-11-17T11:06:49.613Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5006..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"action":{},"date_time":"2022-11-17T11:27:39.178Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T11:38:14.199Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T11:38:38.419Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T11:40:10.507Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T11:43:46.596Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T11:53:02.742Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T12:03:46.037Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T12:05:12.227Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T12:06:49.433Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T12:07:40.988Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T12:08:44.129Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T12:10:26.643Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T12:13:59.654Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T12:15:34.811Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T12:16:32.921Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"action":{},"date_time":"2022-11-17T12:17:11.298Z","file":{},"level":"\u001b[31merror\u001b[39m","message":{},"type":{}}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5001..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5004..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:500..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Method not found."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5000..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"extra":{"code":"PROTOCOL_ENQUEUE_AFTER_QUIT","fatal":false},"level":"\u001b[32minfo\u001b[39m","message":"MySQL client: Unexpected error on idle client"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql client connected"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running http://localhost:5002..."}
+{"level":"\u001b[32minfo\u001b[39m","message":"Mysql connection closed"}

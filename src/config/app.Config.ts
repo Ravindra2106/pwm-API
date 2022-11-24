@@ -14,7 +14,7 @@ export let dbOptions = {
 
   password:  "root@123",
 
-  database:"pmw",
+  database:"powerwellness",
 
   charset: "utf8mb4",
 
