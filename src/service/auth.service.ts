@@ -118,9 +118,9 @@ export class AuthService {
       });
     });
   }
-  eyeputservices1(body: any) {
+  update_eyeicon_services(body: any) {
     return new Promise(async function (resolve, reject) {
-      AuthModel.eyeputservices1(body).then((res: any) => {
+      AuthModel.update_eyeicon_services(body).then((res: any) => {
         console.log(res);
         resolve(res);
       });
@@ -162,6 +162,14 @@ export class AuthService {
   newnotifications(body: any) {
     return new Promise(async function (resolve, reject) {
       AuthModel.newnotifications(body).then((res: any) => {
+        console.log(res);
+        resolve(res);
+      });
+    });
+  }
+  get_users(body: any) {
+    return new Promise(async function (resolve, reject) {
+      AuthModel.get_users(body).then((res: any) => {
         console.log(res);
         resolve(res);
       });

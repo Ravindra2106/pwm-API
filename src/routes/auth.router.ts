@@ -71,20 +71,15 @@ export default [
     handler: [authController.eyeputservices],
   },
   {
-    path: "/eyeputservices1",
+    path: "/update_eyeicon_services",
     method: "put",
-    handler: [authController.eyeputservices1],
+    handler: [authController.update_eyeicon_services],
   },
   {
     path: "/contact_and_hours",
     method: "get",
     handler: [authController.applications],
   },
-  // {
-  //   path: "/add_service1",
-  //   method: "post",
-  //   handler: [authController.applications],
-  // },
 
   {
     path: "/contact_and_hours",
@@ -107,10 +102,20 @@ export default [
     handler: [authController.updatenotifications],
   },
   {
-    path: "/add_user",
-    method: "post",
-    handler: [authController.add_user],
+    path: "/updatenotifications",
+    method: "put",
+    handler: [authController.updatenotifications],
   },
+  {
+    path: "/get_users",
+    method: "get",
+    handler: [authController.get_users],
+  },
+  // {
+  //   path: "/add_user",
+  //   method: "post",
+  //   handler: [authController.add_user],
+  // },
 
   // ,
   //   {

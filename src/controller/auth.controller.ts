@@ -362,14 +362,14 @@ export class authController {
         ServerError(err, res, next);
       });
   };
-  static eyeputservices1: any = async (
+  static update_eyeicon_services: any = async (
     req: Request,
     res: Response,
     next: NextFunction
   ) => {
     const service = new AuthService();
     service
-      .eyeputservices1(req.body)
+      .update_eyeicon_services(req.body)
       .then(
         (resp: any) => {
           return res.status(200).send({
@@ -488,6 +488,30 @@ export class authController {
     const service = new AuthService();
     service
       .updateannouncements(req.body)
+      .then(
+        (resp: any) => {
+          return res.status(200).send({
+            status: 200,
+            message: "success",
+            data: resp,
+          });
+        },
+        (err: Error) => {
+          ServerError(err, res, next);
+        }
+      )
+      .catch((err: Error) => {
+        ServerError(err, res, next);
+      });
+  };
+  static get_users: any = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    const service = new AuthService();
+    service
+      .get_users(req.query)
       .then(
         (resp: any) => {
           return res.status(200).send({

@@ -276,10 +276,10 @@ authController.eyeputservices = (req, res, next) => __awaiter(void 0, void 0, vo
         (0, errorHandler_1.ServerError)(err, res, next);
     });
 });
-authController.eyeputservices1 = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
+authController.update_eyeicon_services = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     const service = new auth_service_1.AuthService();
     service
-        .eyeputservices1(req.body)
+        .update_eyeicon_services(req.body)
         .then((resp) => {
         return res.status(200).send({
             status: 200,
@@ -368,6 +368,23 @@ authController.updatenotifications = (req, res, next) => __awaiter(void 0, void 
     const service = new auth_service_1.AuthService();
     service
         .updateannouncements(req.body)
+        .then((resp) => {
+        return res.status(200).send({
+            status: 200,
+            message: "success",
+            data: resp,
+        });
+    }, (err) => {
+        (0, errorHandler_1.ServerError)(err, res, next);
+    })
+        .catch((err) => {
+        (0, errorHandler_1.ServerError)(err, res, next);
+    });
+});
+authController.get_users = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
+    const service = new auth_service_1.AuthService();
+    service
+        .get_users(req.query)
         .then((resp) => {
         return res.status(200).send({
             status: 200,

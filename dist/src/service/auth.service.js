@@ -154,10 +154,10 @@ class AuthService {
             });
         });
     }
-    eyeputservices1(body) {
+    update_eyeicon_services(body) {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
-                auth_model_1.AuthModel.eyeputservices1(body).then((res) => {
+                auth_model_1.AuthModel.update_eyeicon_services(body).then((res) => {
                     console.log(res);
                     resolve(res);
                 });
@@ -208,6 +208,16 @@ class AuthService {
         return new Promise(function (resolve, reject) {
             return __awaiter(this, void 0, void 0, function* () {
                 auth_model_1.AuthModel.newnotifications(body).then((res) => {
+                    console.log(res);
+                    resolve(res);
+                });
+            });
+        });
+    }
+    get_users(body) {
+        return new Promise(function (resolve, reject) {
+            return __awaiter(this, void 0, void 0, function* () {
+                auth_model_1.AuthModel.get_users(body).then((res) => {
                     console.log(res);
                     resolve(res);
                 });

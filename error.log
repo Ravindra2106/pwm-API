@@ -1,1 +1,2 @@
 {"extra":{"code":"EPIPE","errno":-4047,"syscall":"write"},"level":"\u001b[31merror\u001b[39m","message":"uncaughtException"}
+{"extra":{"code":"EPIPE","errno":-4047,"syscall":"write"},"level":"\u001b[31merror\u001b[39m","message":"uncaughtException"}

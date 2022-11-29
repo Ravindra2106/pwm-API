@@ -361,7 +361,7 @@ export class AuthModel {
             body.entitle,
             body.web_url,
             body.phone_no,
-            body.img_upload,
+            body.photo,
             body.app_num,
           ],
         },
@@ -397,12 +397,12 @@ export class AuthModel {
       );
     });
   }
-  static eyeputservices1(body: any) {
+  static update_eyeicon_services(body: any) {
     return new Promise(async function (resolve, reject) {
       console.log("body", body);
       dbClient.query(
         {
-          sql: "CALL `powerwellness`.`update_eyeicon1`(?, ?,?);",
+          sql: "CALL `powerwellness`.`update_eyeicon_services`(?, ?, ?);",
           values: [body.svc_id, body.flag, body.app_num],
         },
         function (err: Error, res: any) {
@@ -521,6 +521,26 @@ export class AuthModel {
             body._date_from,
             body._date_to,
           ],
+        },
+        function (err: Error, res: any) {
+          if (err) {
+            // console.log('err',err);
+            resolve(err);
+          } else {
+            console.log("response", res);
+            resolve(res);
+          }
+        }
+      );
+    });
+  }
+  static get_users(body: any) {
+    return new Promise(async function (resolve, reject) {
+      console.log("body", body);
+      dbClient.query(
+        {
+          sql: "CALL `powerwellness`.`get_users`(?);",
+          values: [body.app_num],
         },
         function (err: Error, res: any) {
           if (err) {
